@@ -91,6 +91,8 @@ p.start-acount-login-create{
 }
 
 button.user#login{
+    width: 100px;
+    height: 40px;
     cursor: pointer;
     background-color: var(--title);
     color: white;
@@ -101,6 +103,8 @@ button.user#login{
 }
 
 button.user#register{
+    width: 100px;
+    height: 40px;
     margin-left: 10px;
     cursor: pointer;
     background-color: var(--a);
