@@ -9,6 +9,7 @@
     --text: #072D44;
     --shadow: #064469;
     --title: #5790AB;
+    --card-bckg: #efefef;
     --a: #9CCDDB;
 }
 
@@ -122,14 +123,14 @@ div.images-carrosel-games-importans{
 
 .card-game:hover img{
     transition: all 0.9s;
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 div.card-game#L1, #L2, #L3, #L4{
     margin: auto;
     width: 80%;
     height: 55%;
-    background-color: #efefef;
+    background-color: var(--card-bckg);
     padding: 20px 0px;
     border-radius: 10px;
     box-shadow: 0px 2px 20px var(--shadow)
