@@ -153,6 +153,23 @@ p.price-game{
     font-family: 'price';
 }
 
+button.buy-item{
+    cursor: pointer;
+    border: 0;
+    border-radius: 8px;
+    padding: 10px;
+    width: 70%;
+    height: 40px;
+    background-color: var(--a);
+    color: #fff;
+}
+
+button.buy-item:hover{
+    background-color: #fff;
+    color: var(--a);
+    transition: all 0.8s;
+}
+
 h4.detail{
     color: var(--a);
 }
