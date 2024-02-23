@@ -84,6 +84,8 @@ body{
 }
 
 p.start-acount-login-create{
+    margin: auto;
+    width: 390px;
     font-size: 22px;
     padding: 6px;
 }
@@ -95,9 +97,11 @@ button.user#login{
     border-radius: 5px;
     padding: 6px 10px;
     border: none;
+    margin-right: 10px;
 }
 
 button.user#register{
+    margin-left: 10px;
     cursor: pointer;
     background-color: var(--a);
     color: white;
