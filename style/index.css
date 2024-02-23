@@ -63,16 +63,24 @@ body{
 }
 
 .container nav.nav-bar ul{
+    list-style: none;
     padding-bottom: 15px;
     display: flex;
     justify-content: center;
 }
 
-.container nav.nav-bar ul > li{
+.container nav.nav-bar ul > a{
+    color: var(--text);
+    text-decoration: none;
     display: inline-block;
     padding-left: 10px;
 }
 
+.container nav.nav-bar ul > a:hover{
+    color: var(--card-bckg);
+    transform: scale(1.10);
+    transition: all .6s;
+}
 .start-hello-user{
     text-align: center;
     margin: auto;
@@ -103,6 +111,12 @@ button.user#login{
     margin-right: 10px;
 }
 
+button.user#login:hover{
+    background-color: var(--card-bckg);
+    color: var(--title);
+    transition: all 0.8s;
+}
+
 button.user#register{
     width: 100px;
     height: 40px;
@@ -114,6 +128,13 @@ button.user#register{
     padding: 6px;
     border: none;
 }
+
+button.user#register:hover{
+    background-color: var(--card-bckg);
+    color: var(--a);
+    transition: all 0.8s;
+}
+
 
 div.images-carrosel-games-importans{
     margin: auto;
