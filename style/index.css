@@ -135,6 +135,16 @@ button.user#register:hover{
     transition: all 0.8s;
 }
 
+hr.divisor-top-blue-a-{
+    color: var(--a);
+    border: solid 1px var(--a);
+    width: 90%;
+    margin: auto;
+}
+
+h2.week-offer-prop{
+    color: var(--title);
+}
 
 div.images-carrosel-games-importans{
     margin: auto;
