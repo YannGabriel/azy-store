@@ -130,6 +130,7 @@ button.user#register{
 }
 
 button.user#register:hover{
+    box-shadow: 0px 0px 20px #b1b1b18f;
     background-color: var(--card-bckg);
     color: var(--a);
     transition: all 0.8s;
@@ -159,7 +160,7 @@ div.images-carrosel-games-importans{
 
 div.card-game#L1, #L2, #L3, #L4{
     margin: auto;
-    width: 80%;
+    width: 75%;
     height: 55%;
     background-color: var(--card-bckg);
     padding: 20px 0px;
